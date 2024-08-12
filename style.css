@@ -1,0 +1,46 @@
+/* cabeçalho */
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+header{padding: 16px 0; background-color: #202020; color: #F9F6EE;}
+header nav li{display: inline; margin-left: 16px; font-size: 18px;}
+header nav li a{text-decoration: none;}
+
+.container{max-width: 1280px; width: 100%;  margin: 0 auto;}
+header .container{display: flex; align-items: center; justify-content: space-between;}
+
+header h1{font-family: "Raleway", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal; text-transform: uppercase; letter-spacing: 5px;}
+header nav li a{font-family: "Raleway", sans-serif; font-optical-sizing: auto; font-weight: 400; font-style: normal; text-transform: uppercase; letter-spacing: 1px; color: #F9F6EE;}
+header nav li a:hover{text-decoration: underline;}
+
+/* corpo da página */
+
+body{background: #F9F6EE;}
+section{padding: 50px 0;}
+section .container{align-items: flex-start;}
+section h2{font-family: "Source Sans 3", sans-serif; font-optical-sizing: auto; font-size: 22px; font-weight: 700; text-transform: uppercase; color: #202020; margin-bottom: 10px;}
+section h3{font-family: "Source Sans 3", sans-serif; font-optical-sizing: auto; font-size: 18px; font-weight: 700; color: #202020; margin-bottom: 10px;}
+
+.container .img-portfolio img{max-height: 300px; margin-right: 10px; margin-top: 10px; border-radius: 10px; filter: drop-shadow(5px 5px 5px #00000021);}
+.container .img-portfolio img:hover{filter: drop-shadow(5px 5px 5px #00000021); scale: 1.01; transition: 0.5s;}
+.container ul a{text-decoration: none;}
+
+/* fim da página */
+
+#contato{background-color: #FFFFFF;}
+.contact-forms{display: flex; justify-content: space-between;}
+.contact-forms div{width: 30%; text-wrap: wrap;}
+
+form input, form textarea, form button{display: block; width: 350px; margin-bottom: 8px; padding: 8px;}
+form input, form textarea{border-color: #202020; border-top: 0px; border-left: 0px; border-right: 0px;}
+form textarea{resize: none; height: 100px;}
+form input, form textarea, p{font-family: "Source Sans 3", sans-serif; font-optical-sizing: auto; font-weight: 400; color: #202020;}
+form button{background-color: #202020; color: #F2F2F2; border: none; cursor: pointer; border-radius: 10px;}
+form button:hover{background-color: #82002e; outline-color: #FFFFFF; transition: 0.3s;}
+input:focus, textarea:focus{outline-color:#82002e;}
+
+.social-icons li{display: inline;}
+.social-icons img{height: 30px; margin-right: 5px;}
+.social-icons li a{text-decoration: none;}
+
+footer{background-color: #202020; padding: 20px;}
+footer p{color: #F9F6EE;}
